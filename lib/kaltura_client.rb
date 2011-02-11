@@ -1597,6 +1597,8 @@ module Kaltura
     attr_accessor :media_date
     attr_accessor :data_url
     attr_accessor :flavor_params_ids
+    attr_accessor :categories_ids
+    attr_accessor :updated_at
 
     def media_type=(val)
       @media_type = val.to_i
@@ -5682,6 +5684,6 @@ module Kaltura
       end
       return @entry_admin_service
     end
-    end
+  end
 
 end
