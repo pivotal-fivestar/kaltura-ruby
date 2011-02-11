@@ -1565,6 +1565,8 @@ module Kaltura
     attr_accessor :duration
     attr_accessor :ms_duration
     attr_accessor :duration_type
+    attr_accessor :categories_ids
+    attr_accessor :updated_at
 
     def plays=(val)
       @plays = val.to_i
@@ -1597,8 +1599,6 @@ module Kaltura
     attr_accessor :media_date
     attr_accessor :data_url
     attr_accessor :flavor_params_ids
-    attr_accessor :categories_ids
-    attr_accessor :updated_at
 
     def media_type=(val)
       @media_type = val.to_i
